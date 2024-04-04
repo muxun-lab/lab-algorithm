@@ -43,3 +43,5 @@ bin/
 /.idea/
 /algorithm-leetcode-rust/target/
 /algorithm-leetcode-rust/.idea/
+/algorithm-leetcode-typescript/node_modules/
+/algorithm-leetcode-typescript/.idea/
