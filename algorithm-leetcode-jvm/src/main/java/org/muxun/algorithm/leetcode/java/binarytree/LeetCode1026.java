@@ -2,14 +2,19 @@ package org.muxun.algorithm.leetcode.java.binarytree;
 
 /**
  * 题号：1026
- * 题目：节点与其祖先之间的最大差值
+ * <p>
+ * 题目：<a href="https://leetcode.cn/problems/maximum-difference-between-node-and-ancestor">节点与其祖先之间的最大差值</a>
+ * <p>
  * 详情：给定二叉树的根节点 root，找出存在于 不同 节点 A 和 B 之间的最大值 V，其中 V = |A.val - B.val|，且 A 是 B 的祖先。
+ * <p>
  * （如果 A 的任何子节点之一为 B，或者 A 的任何子节点是 B 的祖先，那么我们认为 A 是 B 的祖先）
+ * @author 慕勋
+ * @created 2024-04-05
  */
-public class MaxAncestorDiff {
+public class LeetCode1026 {
 
     /**
-     * 思路
+     * 思路: 深度优先遍历
      * @param root 根节点
      * @return 节点最大差值
      */
