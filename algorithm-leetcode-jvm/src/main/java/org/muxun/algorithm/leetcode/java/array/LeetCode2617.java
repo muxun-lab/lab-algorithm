@@ -1,6 +1,6 @@
 package org.muxun.algorithm.leetcode.java.array;
 
-import com.sunshine.algorithm.leetcode.jvm.Lack;
+import org.muxun.algorithm.leetcode.java.Lack;
 
 import java.util.Arrays;
 import java.util.Comparator;
